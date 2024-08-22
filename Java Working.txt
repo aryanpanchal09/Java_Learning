@@ -19,4 +19,3 @@ extension for byte code is .class
 extension for java code is .java
 
 First File it's necessary to add Main - Some Parameters & Signature 
-

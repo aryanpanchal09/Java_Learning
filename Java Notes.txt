@@ -1,0 +1,155 @@
+
+Object-Oriented Programming (OOP)
+
+Classes and Objects
+- Object: To create an object, you need to define its blueprint, which is known as a Class.
+- JVM: The Java Virtual Machine (JVM) is responsible for creating and managing objects.
+- Instance Variables: These are variables defined within a class and stored within each object. They can be accessed by any method within the class.
+- Local Variables: Variables defined within a method and only accessible within that method.
+
+Working with Objects in Java
+- To use an object in Java, you must instantiate it, which involves using another object.
+- Constructor: A special method in a class used to initialize objects. It has the same name as the class and does not have a return type.
+
+  Example:
+  Keyboard obj = new Keyboard(); // Constructor call
+  
+  Alternatively:
+  Keyboard obj;
+  obj = new Keyboard();
+
+Constructors
+- Constructors are typically used to assign initial values to instance variables.
+- By default, Java provides a no-argument constructor if you don't define one. However, if you want to provide your own constructor, you can do so by defining it in your class.
+
+  Example:
+  public class Keyboard {
+      public Keyboard() {
+          // Custom constructor logic
+      }
+  }
+
+Primitive Data Types
+- int: Can be written without quotes, e.g., int num = 10;.
+- String: Must be enclosed in double quotes, e.g., String name = "John";.
+
+Accessing Instance Variables
+- Instance variables from another class cannot be accessed directly in your class. You must use the object followed by the variable name.
+- Variables can be reassigned unless marked as final. A final variable becomes a constant, meaning its value cannot be changed once assigned.
+
+Inheritance
+
+Introduction to Inheritance
+- Inheritance allows a class to acquire properties and behaviors of another class. This is done using the extends keyword.
+- Child Class (Sub Class): The class that inherits from another class.
+- Parent Class (Super Class): The class from which properties and methods are inherited.
+
+Types of Inheritance
+- Single-Level Inheritance: A child class inherits directly from a parent class.
+- Multi-Level Inheritance: A class inherits from another class, which in turn inherits from a third class.
+- Hierarchical Inheritance: Multiple classes inherit from a single parent class.
+- Hybrid Inheritance: A combination of two or more types of inheritance (not directly supported in Java due to ambiguity).
+
+Method Overriding
+- Method overriding allows a subclass to provide a specific implementation of a method already defined in its superclass.
+- The overridden method in the child class must have the same return type and parameters as in the parent class.
+
+Constructor Inheritance
+- In inheritance, the constructor of the parent class is executed first, followed by the constructor of the child class.
+  
+  Example:
+  public class Parent {
+      Parent() {
+          System.out.println("Parent Constructor");
+      }
+  }
+
+  public class Child extends Parent {
+      Child() {
+          System.out.println("Child Constructor");
+      }
+  }
+
+"is-a" and "has-a" Relationships
+- is-a relationship: Demonstrated through inheritance (e.g., a Dog is an Animal).
+- has-a relationship: Demonstrated through composition (e.g., a Car has an Engine).
+
+Static, Abstract, and Final Keywords
+
+Final Keyword
+- Final Variable: Cannot be changed once initialized.
+- Final Method: Cannot be overridden by subclasses.
+- Final Class: Cannot be subclassed.
+- Example of a final variable:
+  final double PI = 3.14;
+
+Static Keyword
+- Static Variables: Shared among all instances of a class, meaning only one copy exists.
+- Static Methods: Can be called without creating an instance of the class and can only access static variables and other static methods.
+
+  Example:
+  public class Example {
+      static int count = 0;
+
+      static void displayCount() {
+          System.out.println(count);
+      }
+  }
+
+Encapsulation
+
+- Encapsulation: The practice of bundling data (variables) and methods that operate on that data into a single unit or class. It also involves restricting access to some components using access modifiers like private, protected, and public.
+
+Package and Access Modifiers
+
+Packages
+- A Package is a collection of related classes, interfaces, and sub-packages.
+- Java provides built-in packages like java.util, java.io, java.lang, and java.net.
+- You can also create user-defined packages to organize your classes.
+
+  Example:
+  package myPackage;
+  import java.util.Scanner;
+
+Access Modifiers
+- Public: Accessible from any class.
+- Private: Accessible only within the class it's defined.
+- Protected: Accessible within the same package and by subclasses.
+- Default: Accessible only within the same package.
+
+  Example:
+  public class Example {
+      private int number;
+      protected String name;
+      public void display() {
+          System.out.println(number);
+      }
+  }
+
+Method Overloading
+
+- Method Overloading: Defining multiple methods with the same name but different parameters within the same class.
+
+  Example:
+  public class Example {
+      void display(int num) {
+          System.out.println(num);
+      }
+
+      void display(String name) {
+          System.out.println(name);
+      }
+  }
+
+BufferedReader
+
+- BufferedReader: A class in Java used to read text from an input stream (like reading data from a file or keyboard).
+
+  Example:
+  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+Key Points to Remember
+- A constructor cannot be final.
+- A block cannot be final.
+- A local final variable must be initialized at the point of declaration.
+

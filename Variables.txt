@@ -1,0 +1,18 @@
+Real World Problems - Virtual World 
+
+Data Processing Store - Variable 
+
+Text - String 
+Number - int 
+Strong typed Storage
+
+println - to print new lines
+
+First we have to specify the type and then we have to mention the Variable name
+
+5 - value
+= - Assign Operator
+int - type 
+num - variable
+
+
