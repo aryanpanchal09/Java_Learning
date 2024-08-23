@@ -1,0 +1,61 @@
+Arithmentic Operators
++
+-
+* 
+
+/ - It will give Quotent
+% - It will give Remainder
+
+num = num + 2 // num += 2 // num++(post increment) // ++num(pre increment) -> Increment
+
+It behaves diff when we try to fetch the value or assign the value
+
+num1-- -> decrement
+
+The above all are Arithmentic Operators
+
+Now Relational Operators
+
+= - Assignement Operators
+== - To compare the value whether the value are same or not
+!= - Not equal to 
+<= - less than equal to
+>= - greater than equal to
+
+<, >, = 
+
+3. Logical Operators
+
+x < y - a >b
+
+t/f  - t/f
+
+We are trying to get a combine result
+
+AND - &
+OR- |
+! - Not
+
+AND OPERATOR
+T T - T
+T F - F
+F T - F
+F F - F
+
+OR OPERATOR
+T T - T
+T F - T 
+F T - T 
+F F - F 
+
+NOT OPERATOR 
+T - F 
+F - T 
+
+X0 - We will talk about it later
+
+SHORT CIRCUIT
+
+&& - Use Case : If we want both the condition true 
+|| - Use Case : If any of them is true it will give us true - It's called as pipe ||
+! - Use Case : If it's true it will give us false

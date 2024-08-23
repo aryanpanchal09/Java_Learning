@@ -13,4 +13,17 @@ byte - 1 byte - -128 to 127
 3. Character - a,b,c,d
 4. Boolean - True/False - 1/0
 
+int - 4bytes
+float - 4 bytes
+double - 8 bytes
 
+float num = 5.6; - It will give an error
+Use float num = 5.6f;
+double num = 5.6;
+
+char - 2 bytes
+
+for char c we have to use '' single quotes
+It will only take a single digit it can also take a number also becuase it's also a character
+
+By defualt variable of boolean has default value False

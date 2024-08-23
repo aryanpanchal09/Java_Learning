@@ -1,0 +1,38 @@
+Topic - Type Conversion and Casting 
+
+byte b = 127; - maximum value
+
+int a = 256;
+
+now if we assign int to byte it will not work 
+
+a = b; Which will one have a bigger range will be converted means a can be converted to b but b can't converted to a 
+
+a = b - Conversion
+
+If we want to assign int to byte we have to convert it - It's called as Casting 
+
+b = (byte)a;
+
+It's doesn't support boolean, char
+
+int x = 5.6;
+float f = 6.7f;
+
+int x = (int)f; - We will loose our decimal value by converting float to integer
+
+Modulas
+
+Int to byte it will convert it into module 257%256 
+Number divided by Byte Range 
+
+Now matter how big the number is when we convert byte to int it will perform Modulas and post the reminder
+
+From Java 14 we don't have to compile the code first it will automatically do it
+
+Type Conversion 
+
+Suppose if we multiply 2 byte and then answer goes out of the range 
+Java will change that datatype to another which support's it 
+
+byte answer will be in Integer

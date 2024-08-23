@@ -1,0 +1,8 @@
+0b101 - It will print 5 in int Integer
+
+0x7E - Hexadecimal value - Print 126
+
+10_00_00_000 - for programmers can be used as commas which will not be seen in terminal
+
+doube num1 = 12e10
+
