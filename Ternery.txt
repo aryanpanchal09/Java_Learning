@@ -1,0 +1,9 @@
+If we want to check for Even and Odd numbers
+
+?: Ternery Operation
+
+result = n%2==0 ? 10 : 20;
+
+Here if condition is right it will print 10 and if condition is false it will print 20 
+
+Replacement of If else condition but for smaller operation 

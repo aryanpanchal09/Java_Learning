@@ -1,0 +1,13 @@
+Switch between Codes
+
+Based on the value it will perform a particular case
+
+int n = number;
+
+switch(n)
+    case 1:
+        sout;
+        break;
+
+default:
+    sout;

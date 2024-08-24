@@ -1,0 +1,24 @@
+Conditional Statements
+
+if - condition 
+{} - Statements
+else - statement 
+
+if(false) - then if will not work
+if(true) - then it will work
+
+It works on the behalf of truth table 
+
+If there is one statement in if & else statement we can work without the curly brackets
+
+if 
+else if 
+else
+
+for 3 condition
+
+When comparing with numbers suppose the first is already compared with two then in second condition we don't have to consider it and remove the unnecessary parts 
+
+if(x>y && x>z)
+else if(y>z)
+else(z)

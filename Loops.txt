@@ -1,0 +1,26 @@
+To Print something multiple times
+
+while, do while, for
+
+while(true)
+sout;
+
+It will just start printing 
+
+If we want a constant we have to use a variable
+
+When we want to concadiante words and number we have to use the + symbol
+
+"space" + i 
+
+Space used in "" statement will only reflect in Result 
+
+Nested Loop
+
+while()
+    sout;
+    variable
+    while()
+        sout;
+
+Loop inside loop is nested loop 
