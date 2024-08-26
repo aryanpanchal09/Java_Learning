@@ -1,0 +1,33 @@
+Object knows something
+Ex - Pen - Properties(height,weight,color)
+
+
+Object does something
+Ex - Pen - It write
+
+Object - Properties and Behaviours
+
+One Object can have multiple properties and multiple Behaviours
+
+To make a Object we have to make a class
+
+1person - Middle Man - Receiver
+
+Medium because Receiver only understand technical language
+
+JVM creates objects for java but it requires a blueprint
+
+Class classname
+variable 
+method
+sout
+return anything 
+
+To call method from diff class we have to give it's object which is a refrence object 
+
+How to create a Object
+
+Mention the Classname 
+Then create a Refrence Varibale 
+Refrence Varibale Access the Method of Class with the use of new keyword
+Then the call the method with refrence varibable and method name
