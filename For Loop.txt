@@ -1,0 +1,19 @@
+For Loop 
+
+when it's an infinite loop and we want to give all the things in one line
+
+for()
+sout;
+
+In condition if we want value for 4 times give value 3 becuase it starts from 0 or not use <=/>=
+
+for(int i=0;i<4;i++)
+
+If we want specific type then we can use nested loop 
+
+Just like we we want value increasing order suppose two values in a single loop then 
+
+for(int i=1;i<=5;i++) // we want 5 days
+sout
+for(int j=1;j<=9;j++)
+sout("   " + (j + 8) + " - " + (j + 9)) // it will print 9 - 10 , 10 - 11, 11 - 12 .. 9 times

@@ -1,0 +1,11 @@
+JDK - Java Development Kit - Compile the code in Byte Code
+
+JVM - Java Virtual Machine - Run the Code - It's a part of JRE
+
+JRE - Java Runtime Environment - All the Extra Files & Classes - Also checks Byte Code
+
+Java Code - Byte Code - Run Machine (JVM)
+
+JVM - JRE - JDK
+
+JRE - JDK -> Clients Computer

@@ -24,3 +24,28 @@ while()
         sout;
 
 Loop inside loop is nested loop 
+
+If you want to execute the code even if the condition is false then give While after the block use do then while
+
+do - It will start even if the condition is false
+sout
+while() - with condition 
+
+When to use which loop 
+
+While loop - When we don't know how many iteration or we want to read a file from database
+
+
+do While loop - When we want to execute loop atleast once
+
+
+For loop - When we know how many iteration we want to perform
+- Initialization value
+- Condition 
+- Increment & Decrement
+
+
+int a = 3;
+int b = 6;
+int result = (~a & b) | (a & ~b);
+System.out.println(result);
