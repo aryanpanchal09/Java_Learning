@@ -1,0 +1,15 @@
+Void - We are not expecting anything in return 
+
+public void pc()
+{
+    sout
+    return 0;
+}
+
+To change the use datatype you want to return 
+
+public string pc()
+{
+    sout
+    return "pc";
+}
