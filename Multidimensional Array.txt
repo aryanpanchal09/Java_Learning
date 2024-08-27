@@ -1,0 +1,22 @@
+0   1  2  3 - Value 
+
+[1][2][6][5] - n1 - 0 - 6(0,2)
+
+
+[][][][7] - n2 - 1 - 7(1,3)
+
+
+[4][][][] - n3 - 2 - 4 (2,0)
+
+
+
+To combine multiple array and form one Array 
+
+An array of array known as Multidimensional Array
+
+int num[][] = new int[3][4];
+
+Here int[3] - represents 3 array
+int[4] - represents that each array has 4 elements
+
+num[i][j] - represents i-row j-columns

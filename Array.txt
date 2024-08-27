@@ -1,0 +1,24 @@
+Array 
+
+int i = 5;
+
+int - variable 
+i - refrence variable 
+
+int i = 6;
+int i = 7;
+
+To save multiple value in 1 variable we use Array
+To apply array we have to use variable with [] - Square Brackets
+Assign the value in {} - Curly Brackets
+But we have to stick with the size of the Array
+
+int num[] = {5,6,7};
+int num1[] = new int[4];
+
+Now we can't assign more the 4 value in Array num1[];
+Array numbering start with 0 which are knows as Index number
+
+nums array memory structure
+ 0  1  2  3
+[3][7][2][4]
