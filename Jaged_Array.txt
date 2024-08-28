@@ -1,0 +1,24 @@
+[][]
+--
+[][][][]
+--
+[][][]
+
+This type of array is known as jagged array
+
+[[][][]][]] [[][][][]] // Array inside Array inside Array
+--
+[][][]
+--
+[][][]
+
+Drawbacks of Java
+
+- Once you specified the size we can't increase it 
+- To deal with it copy and make new array 
+- It consumes a lot of time 
+
+Use
+ 
+- Store multiple values
+- Fast

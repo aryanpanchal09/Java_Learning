@@ -22,3 +22,5 @@ Array numbering start with 0 which are knows as Index number
 nums array memory structure
  0  1  2  3
 [3][7][2][4]
+
+By default the valye of Array is 0

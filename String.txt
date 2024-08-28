@@ -1,0 +1,44 @@
+String : ""
+
+String is actually a Class
+That's why we have many different methods
+like 
+name.charAt() - find out Index no character
+name.concat(" panchal") - 2 String add - aryan panchal 
+
+But we don't necesarily had to create object of String it simply work like other variable
+It's case sensitive
+
+
+String name = "Aryan"
+
+name = name + " panchal"
+
+stack
+name|105 // it just change its value 105 - 101 and now aryan is a garbage value which can be used 
+s1|103 // stored at one place used by both
+s1|103
+
+heap
+aryan panchal
+--
+105
+--
+aryan
+--
+103
+
+
+
+Special Area - String Constant Pool
+aryan|105
+Aryan|103|102
+
+Mutable String -> Change 
+Immutable String -> unchange
+
+String Buffer
+String Builder 
+
+They both provide the way to use Mutable String 
+Because by default String are immutable

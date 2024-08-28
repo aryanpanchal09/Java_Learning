@@ -1,0 +1,4 @@
+Exceptions are Runtime error where we don't get inside the code but while running the code
+
+nums.length - Array Property - which we can use as a variable or Property - which we tell us the actual length of the array 
+But to use it it should be less then i<nums.length
