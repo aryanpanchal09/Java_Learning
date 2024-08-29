@@ -1,0 +1,40 @@
+JDBC - Java Database Connectivity
+
+1. Establishing database connectivity
+2. To Execute MySQL queries and DDL/DML commands 
+3. View and Modify data records
+
+
+
+DATATYPES IN JDBC
+
+SQL - Java
+VARCHAR - java.lang.string
+BIT - boolean
+NUMERIC - Java.math.BigDecimal
+INTEGER - int
+REAL - float
+FLOAT - float
+DOUBLE - double
+BINARY - byte[]
+DATE - java.sql.Date
+
+SQL - Java/JDBC
+TIMESTAMP - java.sql.Timestamp
+ARRAY - java.sql.Array
+REF - java.sql.Ref
+STRUCT - java.sql.Struct
+CHAR - java.lang.String
+BIGINT - long
+VARBINARY - byte[]
+CLOB - java.sql.Clob
+BLOB - java.sql.Blob
+
+
+JDBC ARCHITECTURE
+
+Application - JDBC API - JDBC Manager - JDBC Drivers [SQL Server, Oracle DB, Source]
+
+
+JDBC ENVIRONMENT SETUP
+
