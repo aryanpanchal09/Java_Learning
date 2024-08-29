@@ -1,0 +1,5 @@
+Class loades & Objects are Instantiated
+
+that's why static class is always initialized first before the object
+
+Static Block is used to initialized the static variables

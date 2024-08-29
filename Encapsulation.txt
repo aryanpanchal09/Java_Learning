@@ -1,0 +1,5 @@
+Encapsule - Capsule in which we store information as a variable
+
+Everytime you create a Instance variable make's in private
+
+There should be a way that people can access the data but not directly but with the help of methods
