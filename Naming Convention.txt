@@ -1,0 +1,13 @@
+camelCasing - Naming Convention followed by Java
+
+class and interface - Calc, Runnable - Start with Capital Letter
+variable and method - marks, show() - small and method with ()
+constants - PIE, BRAND
+constructor - Human() - Capital and ()
+
+If a word have 2 letters we use 
+showMyMarks() or show_my_marks()
+
+MyData - Class
+
+It makes the code very much runnable and also helps us to identify elements or distinguish elements

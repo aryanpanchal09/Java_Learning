@@ -37,4 +37,19 @@ Application - JDBC API - JDBC Manager - JDBC Drivers [SQL Server, Oracle DB, Sou
 
 
 JDBC ENVIRONMENT SETUP
+1. Download the latest JDK
+2. Set Java_Home
+3. Set Java Path
+
+
+
+MySQL
+
+1. Download the latest MySQL Workbench 
+2. Extract the file 
+3. Run the Setup file
+
+mysql 
+mysql --version
+mysql -u root -p 
 

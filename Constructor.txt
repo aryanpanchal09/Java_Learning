@@ -1,0 +1,27 @@
+Constructor we don't specify the return type or we don't write it
+
+We are using it to assign values before the execution of a particular method
+
+Constructor is a special method. It has a same name as a class name
+
+A Constructor never returns 
+
+Just specify the modifier public, private, protector
+
+
+That's how we define Constructor
+public Human()
+{
+
+}
+
+If we don't call it then also it will be called.
+
+Because whenever we create a object it will also be called.
+for ex 
+Human obj = new Human(); - Constructor is called
+Human obj1 = new Human(); - Again the Constructor will be called
+
+We also do that in a formal way we declare the values in method not in a statement
+
+In Constructor we can write the connector where our file is trying to connect with the database

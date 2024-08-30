@@ -1,0 +1,5 @@
+We are using it whenever we want to assign values not in Constructor but in obj directly
+
+A Constructor having some Parameter is called as Parameterized Constructor
+
+If we don't create a Constructor java will automatically create a Constructor
