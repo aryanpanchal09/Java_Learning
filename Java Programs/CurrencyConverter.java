@@ -15,7 +15,7 @@ public class CurrencyConverter
         System.out.println("Enter the amount: ");
         double amount = scanner.nextDouble();
 
-        double convertedAmount = convert(fromCurrency, toCurrency, amount);
+        double convertedAmount = convert(fromCurrency, toCurrency, amount); // convertedAmount - arguments passed
         System.out.println(amount + " " + fromCurrency + " is equal to " + convertedAmount + " " + toCurrency);
         
     }
