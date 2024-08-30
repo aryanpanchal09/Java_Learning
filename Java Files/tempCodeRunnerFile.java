@@ -1,0 +1,1 @@
+System.out.println(obj1.getName() + " : " + obj1.getAge());
