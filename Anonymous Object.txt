@@ -1,0 +1,5 @@
+Anonymous Object are only used once 
+
+There is no refrence Variable in Anonymous Object
+new A(); - Anonymous Object
+

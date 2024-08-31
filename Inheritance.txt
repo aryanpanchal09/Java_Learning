@@ -1,0 +1,39 @@
+When we write same code again and again it's called Redundacy
+
+In java to overcome it we use the concept called Inheritance
+
+To Inherit the value of other Class in our Class
+
+We use with the help of extends keyword
+
+public class AdvCalc extends Calc
+
+extends simply means is a 
+
+AdvCalc is a Calc
+
+OOPS 
+
+Object
+Class
+Encapsulation 
+Inheritance
+
+Inheritance
+is,has;
+
+Parent - Child
+Super - Sub
+Base - Derived
+
+Single & Multi Level Inheritance
+
+Calc <- AdvCalc <- VeryAdvCalc - Multi-Level Inheritance
+
+Calc <- AdvCalc - Single-Level Inheritance
+
+Multiple Inheritance
+
+Not Possible in Java, Possible in C++
+A Parent Class - B Parent Class - C Child Class
+
