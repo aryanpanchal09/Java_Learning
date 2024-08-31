@@ -37,3 +37,8 @@ Multiple Inheritance
 Not Possible in Java, Possible in C++
 A Parent Class - B Parent Class - C Child Class
 
+Due to the confusion if we have methods in both the class java will not recognize whose method to use
+
+Ambiguity - Confusion Problem 
+
+Interfaces help ..
