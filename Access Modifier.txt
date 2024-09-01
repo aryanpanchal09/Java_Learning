@@ -1,0 +1,33 @@
+When accessing method from different file it should be public otherwise we won't be able to use it
+
+Variables should not be public but method should be public
+
+Private
+
+Private variable can be used in the same class irrespective of the package
+
+It can't be used outside the class
+
+Default can be access in the same package or same class
+
+Protected 
+
+                                Public      Private     Protected       Default
+Same class                      Yes         Yes         Yes             Yes
+Same package subclass           Yes         No          Yes             Yes
+Same package non-subclass       Yes         No          Yes             Yes
+Different package subclass      Yes         No          Yes             No
+Different package non-subclass  Yes         No          No              No
+
+
+Try to make our class public but there is a catch that java doen't allow 2 public class in a same file
+
+Try to make 1 class in 1 file
+
+Try to keep Variables Private
+
+Method should be public
+
+Method very special Protected
+
+Just try not to use default

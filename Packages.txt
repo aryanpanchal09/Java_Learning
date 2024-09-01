@@ -1,0 +1,17 @@
+Folder inside Folder is known as Packages in Java
+
+package tools;
+
+import tools.classname which you want to use
+
+import java.lang.*; - If we want all the files from the folder to use
+
+Other - Tools - package other.tools;
+
+import other.tools.*;
+import other.*; - It will give you an error because it extracts all the files not the folder
+
+How to define Package name when you want to share some library to other people 
+
+
+

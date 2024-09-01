@@ -1,1 +1,2 @@
-System.out.println(obj1.getName() + " : " + obj1.getAge());
+        // B obj1 = new B();
+        // System.out.println(obj1.marks);    

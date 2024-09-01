@@ -1,0 +1,3 @@
+Method Overriding we can call the method with same name and no parameters 
+
+Where method of Class B overrides the method of Class A with having some different behaviour

@@ -1,0 +1,17 @@
+Whenever we call the object it will call the constructor of a class
+
+But If we had use Inheritance it will call the constructor of sub class and super class both
+
+Every constructor in java there is a method called Super 
+
+Even if we don't mention it it's there
+
+Super means call the constructor of a super class the default one not the parameterized one
+
+Super Class constructor value pass extends parameterized constructor call
+
+Every Class in java extends the Object Class
+
+This method will execute the constructor of a same class
+
+Super method execute the constructor of a super class
