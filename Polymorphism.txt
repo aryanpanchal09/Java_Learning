@@ -1,0 +1,16 @@
+Poly - Many 
+
+morphism - behaviour 
+
+Same object / refrence will have different behaviour 
+
+Types 
+
+1. Compile Time Polymorphism - Early Binding - What method is going to executed if we know it's Compile Time Polymorphism - Overloading 
+
+2. Run Time Polymorphism - Late Binding - What method is going to executed if we don't know it's Run Time Polymorphism - Overriding 
+
+
+Dynamic Method Dispatch 
+
+So we can mention types as Parent & Objct can be of Child
