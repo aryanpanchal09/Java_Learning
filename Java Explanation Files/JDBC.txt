@@ -1,0 +1,47 @@
+JDBC - Java Database Connectivity
+---------------------------------
+Database Connection 
+Executing SQL Queries
+Data Processing 
+
+Key Components 
+--------------
+JDBC API
+JDBC Driver Manager
+JDBC Drivers
+JDBC Test Suite
+
+Different Java Frameworks 
+-------------------------
+Maven
+Hibernate
+Struts
+Play
+Spring
+JSF
+
+ORM - Object Relational Mapping 
+-------------------------------
+Java: Hibernate, EclipseLink, Apache OpenJPA
+
+Instead of saving individual values we are saving objects having the value in the Database
+
+We are saving the object in the Database
+
+JPA - Java Persistence API 
+--------------------------
+API - It has various functions, each API has it's own various functions
+
+Many Predefined classes and functions for implementing CRUD operations on Object
+
+Hibernate is Framework which implement ORM by using JPA API 
+
+Use to implement ORM using Hibernate or Spring Boot
+
+Maven
+-----
+It's directly connected to the Internet. Which allows us to directly implement dependencies into our xml file
+
+Enterprise Edition for Eclipse 
+Maven 
+// <artifactId>01</artifactId> //HibernateExample
