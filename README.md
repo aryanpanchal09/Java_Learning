@@ -19,7 +19,7 @@ This repository contains the notes and materials I compiled while learning Java 
 ### Getting Started:
 1. Clone the repository using:
    ```bash
-   git clone https://github.com/your_username/java-course-notes.git](https://github.com/aryanpanchal09/Java_Learning.git
+   git clone https://github.com/aryanpanchal09/Java_Learning.git
    ```
 2. Navigate to the project directory:
    ```bash
